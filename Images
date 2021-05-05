@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Setting Image Dimensions in HTML</title>
+</head>
+<body>
+    <img src="/examples/images/kites.jpg" alt="Flying Kites" width="300" height="300">
+    <img src="/examples/images/sky.jpg" alt="Cloudy Sky" width="250" height="150">
+    <img src="/examples/images/balloons.jpg" alt="Hot Air Balloons" width="200" height="200">
+</body>
+</html>
