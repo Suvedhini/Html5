@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTORS</title>
+    <style>
+        /* This is Element selector */
+        p{
+            border: 2px solid blue;
+            color:crimson;
+        }
+        /* Id Selector */
+        #div1{
+            color:blueviolet;
+            border:2px solid yellowgreen;
+        }
+        /* Class Selector */
+        .divclass{
+            color:rgb(179, 18, 45);
+            border:2px solid purple;
+        }
+        /* Group selector */
+        header,footer{
+            background-color: seagreen;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Selector</h3>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque.</p>
+    <div id="div1">This is CSS Selector</div><br>
+    <div class="divclass">This is class selector</div><br>
+    <header>This is header</header>
+    <footer>This is footer</footer>
+</body>
+</html>
